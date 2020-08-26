@@ -1,0 +1,101 @@
+.name {
+  color: red;
+}
+
+.layout {
+  min-height: 100vh;
+  :global {
+    .ant-layout-footer {
+      background-color: #000;
+      margin-top: 20px;
+    }
+  }
+}
+.logo {
+  float: left;
+  height: 64px;
+  overflow: hidden;
+  line-height: 64px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  img {
+    height: 24px;
+    margin-right: 10px;
+  }
+}
+
+.menu {
+  float: right;
+  font-size: 14px;
+  border: 0;
+  :global {
+    .ant-menu-item {
+      height: 64px;
+      line-height: 64px;
+    }
+  }
+}
+
+.header {
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+  background: #000;
+}
+
+.lang {
+  float: right;
+  :global {
+    .ant-select-selection {
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
+
+.theme {
+  float: right;
+  width: 16px;
+  margin-left: 8px;
+  cursor: pointer;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.layoutContent {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    :global {
+      .ant-layout-header,
+      .ant-layout-footer {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1108px) {
+  .pc {
+    display: none;
+  }
+}
+
+@media (min-width: 1109px) {
+  .mobile {
+    display: none;
+  }
+}

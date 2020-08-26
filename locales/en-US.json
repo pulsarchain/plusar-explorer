@@ -1,0 +1,211 @@
+{
+  "seo.title": "Pulsar Block Explorer",
+  "seo.description": "Block Explorer",
+  "seo.keywords": "Blockchain navigation, blockchain information, blockchain trading platform, blockchain application, blockchain mining machine, digital currency, blockchain",
+  "nav.name": "Menu",
+  "nav.home": "Home",
+  "nav.wallet": "Client",
+  "nav.node": "Block",
+  "nav.transactions": "Transaction",
+  "nav.about": "about",
+  "nav.ranking": "Fuel Ranking",
+  "nav.whitpaper": "White Paper",
+  "search.export": "export",
+  "search.button": "search",
+  "search.placeholder": "search Tx Hash/Address/Block",
+  "search.empty": "No data yet, try another keyword~",
+  "search.hashEmpty": "当前交易正在打包中，请稍后再试",
+  "search.info.header.tx": "Transaction details page",
+  "search.info.header.block": "Block details page",
+  "search.info.header.address": "Address details page",
+  "search.info.timestamp": "Time",
+  "search.info.height": "Block #",
+  "search.info.amount": "Transaction Number",
+  "search.info.size": "Size",
+  "search.info.balance.available": "Current balance",
+  "search.info.status": "State",
+  "search.info.blockSureCount": "Number of block confirmations",
+  "search.info.hash": "Block hash",
+  "search.info.isSure": "Is it confirmed",
+  "search.info.hard": "Difficulty value",
+  "search.info.minerAddress": "Miner address",
+  "search.info.zlclxz": "Gas Limit Pivot",
+  "search.info.averageGas": "Gas Used",
+  "search.info.uncleHash": "Uncle Hash",
+  "search.info.rootHashStatus": "State Root Hash",
+  "search.info.parentHash": "Parent Hash",
+  "search.info.data": "Data",
+  "search.info.dataFormate": "Data (after format conversion)",
+  "search.info.uncleHashCount": "Number of Uncle Blocks",
+  "search.info.transitionsCount": "Number of transactions",
+  "search.info.address": "Address",
+  "search.info.addressTransitionCount": "Transaction count",
+  "search.info.code": "Code",
+  "search.info.nonce": "nonce",
+  "search.info.gasPrice": "Gas Price",
+  "search.info.gasConsume": "Gas Used by Transaction",
+  "pulsar.blockTime": "Block Time",
+  "pulsar.TPS": "TPS",
+  "pulsar.currentDiff": "Current Diff",
+  "pulsar.hashRate": "Hash rate",
+  "pulsar.latestDeal": "Latest deal",
+  "table.LatestBlock": "Latest block",
+  "table.apply": "more>>",
+  "table.pagination.total": "{start}-{end} total {total} pieces",
+  "table.tx.title": "Transaction record",
+  "table.tx.hash": "Tx Hash",
+  "table.tx.handlingFee": "Transaction Fee",
+  "table.tx.block": "Block #",
+  "table.tx.timestamp": "Time",
+  "table.tx.send": "From",
+  "table.tx.receiver": "To",
+  "table.tx.gas": "Gas Limit",
+  "table.tx.transactionsNum": "Transaction Number",
+  "table.tx.miner": "Miner",
+  "table.tx.fuelLimit": "Gas Limit",
+  "table.tx.reward": "Reward",
+  "table.tx.uncleBlock": "Tertiary block",
+  "table.blocks.title": "Block record",
+  "wallet.cold.name": "Wallet",
+  "wallet.cold.desc": "Wallet instructions",
+  "wallet.ios": "IOS Version",
+  "wallet.android": "Android Version",
+  "wallet.mac": "Mac Version",
+  "wallet.win": "Windows Version",
+  "about.title": "Company",
+  "contract.title": "Contact us",
+  "footer.about": "About us",
+  "footer.desc": "Distributed high-performance blockchain basic platform system",
+  "footer.contract": "Contact us",
+  "footer.api": "DeveloperAPI",
+  "footer.community": "Community",
+  "footer.event": "Company Events",
+  "footer.event.list": [
+    {
+      "time": "2018",
+      "events": [
+        {
+          "time": "Feb 28th",
+          "event": "Pulsar Tech Inc was found in Chengdu."
+        },
+        {
+          "time": "Mar",
+          "event": "Pulsar Chain project was established."
+        },
+        {
+          "time": "Jun",
+          "event": "Researching of Pulsar Chain tech-scheme, algorithm, and fundamentals."
+        },
+        {
+          "time": "Sep",
+          "event": "Pulsar Chain invent a new consensus, DS-POW, with the advantages of both POW and POS, verify and initially implement it."
+        },
+        {
+          "time": "Nov 6th",
+          "event": " Pulsar Tech Inc successfully got the software copyright:Pulsar Commodity Traceability Merchant Management System."
+        },
+        {
+          "time": "Nov 6th",
+          "event": "Pulsar Tech Inc got millions of angel investment from Xiamen Delian Venture Capital."
+        }
+      ]
+    },
+    {
+      "time": "2019",
+      "events": [
+        {
+          "time": "Jan",
+          "event": "The implement and optimizing of DS-POW algorithm."
+        },
+        {
+          "time": "Apr",
+          "event": "Pulsar Chain invented the original DAG algorithm to maximize the TPS, and did the verification repeatedly."
+        },
+        {
+          "time": "Jul",
+          "event": " The researching, implement and optimizing of DAG algorithm."
+        },
+        {
+          "time": "Nov 25th",
+          "event": "Pulsar Tech Inc got 0.15 million of angel investment from government."
+        },
+        {
+          "time": "Dec",
+          "event": "The mainnet of pulsar chain was online, and the 1st edition of wallet was available simultaneously."
+        }
+      ]
+    },
+    {
+      "time": "2020",
+      "events": [
+        {
+          "time": "Jan",
+          "event": "Improve the smart contract engine and enhance the dapp ecosystems."
+        }
+      ]
+    }
+  ],
+  "contract.company": "Zytech Fin Tech Ltd",
+  "contract.otherMsg": "E-mail:developers@bosha.com",
+  "api.title": "Developer API",
+  "api.command": "Command",
+  "api.function": "Function",
+  "api.description": "Explaination",
+  "api.example": "Example",
+  "api.retrunValue": "Return value description",
+  "api.btn": "Pulsar Extend API",
+  "api.desc": [
+    {
+      "function": "Miner registered as agent miner",
+      "explaination": "ADDR1 is the address of the agent miner to be registered; delegatefee is the handling fee rate of the agent miner",
+      "returnValue": "transaction hash"
+    },
+    {
+      "function": " Entrusted funds to agent miners",
+      "explaination": "stakeHolderAddr<br/> minerAddr<br/> stakeValue",
+      "returnValue": "transaction hash"
+    },
+    {
+      "function": "Cancellation of capital entrustment by shareholders",
+      "explaination": "stakeHolderAddr <br/> minerAddr",
+      "returnValue": "transaction hash"
+    },
+    {
+      "function": "Get all agent miner information",
+      "explaination": "-",
+      "returnValue": "A list of all registered agent miners, indexed by the address of the agent miner. The meaning of the field is as follows: Depositbalance: the sum of funds entrusted by the shareholder to the agent miner. Feeratio: the rate charged by the agent miner, unit: 1 / 1 million."
+    },
+    {
+      "function": "  Get all shareholders information on agent miner",
+      "explaination": " Addr is the address of the agent miner",
+      "returnValue": "A list of all shareholders entrusted to the agent miner, indexed by the address of the shareholder. The meaning of the field is as follows: depositbalance: the fund entrusted by the shareholder to the agent miner. Depositblocknumber: the height of the block in which the consignment transaction is packaged."
+    },
+    {
+      "function": "Get the total output of pow at the specified block height",
+      "explaination": "Blocknumber is the specified block height (optional). If it is not specified, it defaults to the current latest height",
+      "returnValue": "Total output of pow at specified block height"
+    },
+    {
+      "function": "Get the information of the specified block, which is basically the same as Ethereum, but the return value adds several weight and output related fields",
+      "explaination": "Blocknumber is the specified block height (optional). If it is not specified, it defaults to the current latest height",
+      "returnValue": "New field: postlastcyclesupply: total POS output of the previous cycle. Post last maturity cycle supply: the total output of POS in the last maturity cycle. Posold maturesupply: the total output of POS in all maturity cycles before the last maturity cycle. Posproduction: total POS production of the block. Powlastcyclesupply: total POW production in the previous cycle. POW last maturity cycle supply: total POW production in the last maturity cycle. Powold maturity supply: the total POW output of all maturity cycles before the previous maturity cycle. Powproduction: total POW production of the block."
+    }
+  ],
+  "about.desc.first.title": "Technical geeks who truly believe in blockchain thinking",
+  "about.desc.first.desc": "We firmly believe the mainstream thought of blockchain, believe in the power of calculation, and believe in the thought of blockchain that the pursuit of everyone is available and everyone can get it. We have delved into the underlying technologies of blockchain for many years, always looking for a fairer and more lasting way of community governance and working for it. We don't want thrilling, we want to stand on the shoulders of giants and make changes. We don't want to live in the real world. We just want to live in the chain. Hash is life,  block is power, and wallet is wealth.",
+  "about.desc.second.title": "ndependent development line",
+  "about.desc.second.desc": "We want to cooperate with anyone and we also want not to cooperate with anyone. Before we started, we decided that all should be self-reliant and all should be self-created. We know that any kind of dependence is a hindrance to development. We don't want you to give us a chance. We would like you to add to it. We want to start with a pulsar and build a huge network of pulsars.",
+  "about.desc.third.title": "The coin is the soul of the blockchain, and it should exist",
+  "about.desc.third.desc": "PULSAR's token is PUL, and at the beginning we have to be honest with the public, refuse to do anything about it, refuse to brag about it. As long as you are a member of the blockchain world, you can easily get PUL, PUL will be not worth a cent if out of PULSAR, perhaps collection is the main role. Refuse any so-called private placement, financing, or responsibility for any related event. PUL is the GAS of the PULSAR chain. Its value is to burn itself and light others. The original POS + POW, so that you can get as long as you work, and  have a harvest as long as you pay.",
+  "about.desc.fourth.title": "Walk all the way",
+  "about.desc.fourth.desc": "We have no other way to go, only this one. We can't predict the development of the blockchain and can't change anyone's view of the blockchain, we can just walk forward. To educate others, someone will always do it. We have no ability to educate others but to control ourselves. PULSAR ecology is a broad enough road, and we will overcome",
+  "downloadText": {
+    "android": "Please use the scanning tool of the mobile phone camera, do not use WeChat or Alipay scan code.",
+    "ios": "Please use the scanning tool of the mobile phone camera, do not use WeChat or Alipay scan code; if you can not open your wallet after downloading, you can uninstall it and then go to the browser's official website to download."
+  },
+  "downloadTextArray": ["使用手机相机的扫码工具扫描上侧二维码，点击“开始测试”下载安装"],
+  "table.ranking.title": "Fuel Rank",
+  "ranking": "Amount of fuel",
+  "output": "Output",
+  "billion": "billion"
+}

@@ -1,0 +1,146 @@
+.about {
+  margin: 42px auto 0px;
+  width: 1200px;
+  padding: 0px !important;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 16px;
+    }
+  }
+
+  .desc {
+    > div {
+      display: flex;
+      flex-direction: column;
+      & ~ div {
+        border-top: 1px solid #f8f5ff;
+      }
+      > span:nth-of-type(2) {
+        padding: 17px 0px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 24px;
+      }
+      > span:nth-of-type(1) {
+        font-size: 16px;
+        color: #333;
+      }
+      &:not(:nth-of-type(1)) {
+        padding-top: 16px;
+      }
+    }
+  }
+  .bottom {
+    padding-bottom: 36px;
+    border-bottom: 1px solid #f8f5ff;
+  }
+}
+.eventContent {
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  :global {
+    .ant-timeline-item-tail {
+      border-left: 2px solid #ff6d6d;
+    }
+    .ant-timeline-item-head-custom {
+      padding: 0px 1px;
+    }
+    .ant-timeline-item-last {
+      height: 0px;
+      padding: 0px;
+    }
+    .ant-timeline-item-content {
+      height: 60px;
+      font-size: 16px;
+      padding-left: 33px;
+      color: #666;
+    }
+    .ant-timeline {
+      flex: 1;
+    }
+    @media screen and (max-width: 1200px) {
+      .ant-timeline-item-content {
+        font-size: 12px;
+        padding-top: 5px;
+        padding-left: 13px;
+      }
+    }
+  }
+  .timeLineWrap {
+    display: flex;
+    flex: 1;
+    > span {
+      font-size: 26px;
+      color: #ff6d6d;
+      margin-right: 53px;
+      margin-top: -14px;
+      white-space: nowrap;
+      @media screen and (max-width: 1200px) {
+        font-size: 14px;
+        width: 70px;
+        margin-right: 0;
+        margin-top: -5px;
+      }
+    }
+  }
+  .time {
+    color: #34d5a5;
+    font-size: 16px;
+    padding-right: 10px;
+    @media screen and (max-width: 1200px) {
+      font-size: 12px;
+    }
+  }
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #ff6d6d;
+  background-color: #ffc5c9;
+}
+.dotNull {
+  width: 0px;
+  height: 0px;
+}
+.api {
+  width: 1200px;
+  margin: 0 auto;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+  }
+  :global {
+    .apiTable {
+      margin-top: 33px;
+      td {
+        font-size: 12px !important;
+      }
+      .ant-table-thead {
+        th {
+          font-size: 16px;
+          color: #333;
+        }
+      }
+      .ant-table-wrapper {
+        margin-top: 0px;
+      }
+    }
+  }
+  .apiBtn {
+    display: flex;
+  }
+}
+.eventAboutTitle {
+  justify-content: center !important;
+  flex-direction: row !important;
+  > a {
+    &:nth-of-type(2) {
+      margin-left: 50px;
+    }
+  }
+}

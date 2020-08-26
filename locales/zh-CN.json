@@ -1,0 +1,213 @@
+{
+  "seo.title": "区块浏览器",
+  "seo.description": "区块浏览器",
+  "seo.keywords": "区块链导航,区块链资讯,区块链交易平台,区块链应用,区块链挖矿机,数字货币,区块链有哪些",
+  "nav.name": "菜单",
+  "nav.home": "首页",
+  "nav.wallet": "客户端",
+  "nav.node": "区块",
+  "nav.transactions": "交易",
+  "nav.about": "关于",
+  "nav.ranking": "燃料排行",
+  "nav.whitpaper": "白皮书",
+  "search.export": "导出",
+  "search.button": "搜索",
+  "search.placeholder": "搜索 交易哈希/区块高度/地址",
+  "search.empty": "暂无数据，换个关键词试试吧~",
+  "search.hashEmpty": "当前交易正在打包中，请稍后再试",
+  "search.info.header.tx": "交易数据详情",
+  "search.info.header.block": "区块详情",
+  "search.info.header.address": "地址详情",
+  "search.info.timestamp": "时间戳",
+  "search.info.height": "区块高度",
+  "search.info.amount": "交易数量",
+  "search.info.size": "大小",
+  "search.info.balance.available": "可用余额",
+  "search.info.status": "状态",
+  "search.info.blockSureCount": "区块确认个数",
+  "search.info.hash": "区块哈希",
+  "search.info.isSure": "是否确认",
+  "search.info.hard": "难度值",
+  "search.info.minerAddress": "矿工地址",
+  "search.info.zlclxz": "轴链材料限制",
+  "search.info.averageGas": "燃料消耗",
+  "search.info.uncleHash": "叔区块哈希",
+  "search.info.rootHashStatus": "根哈希状态",
+  "search.info.parentHash": "父区块哈希",
+  "search.info.data": "数据",
+  "search.info.dataFormate": "数据(格式转换后)",
+  "search.info.uncleHashCount": "叔区块数",
+  "search.info.transitionsCount": "交易记录数",
+  "search.info.address": "地址",
+  "search.info.addressTransitionCount": "交易计数",
+  "search.info.code": "代码",
+  "search.info.nonce": "nonce",
+  "search.info.gasPrice": "燃料价格",
+  "search.info.gasConsume": "交易燃料消耗",
+  "pulsar.blockTime": "出块时间",
+  "pulsar.TPS": "TPS",
+  "pulsar.currentDiff": "难度值",
+  "pulsar.hashRate": "哈希率",
+  "pulsar.latestDeal": "最新交易",
+  "table.LatestBlock": "最新区块",
+  "table.apply": "更多>>",
+  "table.pagination.total": "{start}-{end} 共 {total} 条",
+  "table.tx.title": "交易记录",
+  "table.tx.hash": "交易哈希",
+  "table.tx.handlingFee": "手续费",
+  "table.tx.block": "区块高度",
+  "table.tx.timestamp": "时间",
+  "table.tx.send": "发送方",
+  "table.tx.receiver": "接收方",
+  "table.tx.gas": "燃料限制",
+  "table.tx.transactionsNum": "交易数量",
+  "table.tx.miner": "矿工",
+  "table.tx.fuelLimit": "燃料限制",
+  "table.tx.reward": "奖励",
+  "table.tx.uncleBlock": "叔区块",
+  "table.blocks.title": "区块记录",
+  "wallet.cold.name": "钱包",
+  "wallet.cold.desc": "钱包使用说明",
+  "wallet.ios": "iOS 版",
+  "wallet.android": "Android 版",
+  "wallet.mac": "Mac 版",
+  "wallet.win": "Windows 版",
+  "about.title": "关于我们",
+  "contract.title": "联系我们",
+  "footer.about": "关于我们",
+  "footer.desc": "分布式高性能区块链基础平台系统",
+  "footer.contract": "联系我们",
+  "footer.api": "开发者API",
+  "footer.community": "社区",
+  "footer.event": "公司大事记",
+  "footer.event.list": [
+    {
+      "time": "2018年",
+      "events": [
+        {
+          "time": "2月28号",
+          "event": "成都波霎科技有限公司成立"
+        },
+        {
+          "time": "3月",
+          "event": "波霎链项目立项"
+        },
+        {
+          "time": "6月",
+          "event": "波霎链技术方案调研、算法研究、基础设施搭建"
+        },
+        {
+          "time": "9月",
+          "event": "波霎链综合POW和POS共识各自的优点，提出DS-POW混合共识算法，并进行验证和初步实现"
+        },
+        {
+          "time": "11月6号",
+          "event": "成都波霎科技成功获得了“波霎商品溯源商户管理系统”的软件著作权"
+        },
+        {
+          "time": "12月7号",
+          "event": "获得厦门德链创业天使投资几百万人民币"
+        }
+      ]
+    },
+    {
+      "time": "2019年",
+      "events": [
+        {
+          "time": "1月",
+          "event": "波霎链DS-POW算法实现和优化"
+        },
+        {
+          "time": "4月",
+          "event": "波霎链提高系统TPS，提出特有的DAG算法，并进行反复验证"
+        },
+        {
+          "time": "7月",
+          "event": "波霎链DAG算法的研究、实现和优化"
+        },
+        {
+          "time": "11月25日",
+          "event": "获得政府天使投资15万人民币"
+        },
+        {
+          "time": "12月",
+          "event": "波霎链PULSAR主链上线，同步上线第一版的钱包，支持委托挖矿功能"
+        }
+      ]
+    },
+    {
+      "time": "2020年",
+      "events": [
+        {
+          "time": "1月",
+          "event": "完善智能合约引擎，拓展DAPP开发生态"
+        }
+      ]
+    }
+  ],
+  "contract.company": "Zytech Fin Tech Ltd",
+  "contract.otherMsg": "邮箱：developers@bosha.com",
+  "api.title": "开发者API",
+  "api.command": "命令",
+  "api.function": "功能",
+  "api.description": "说明",
+  "api.example": "示例",
+  "api.retrunValue": "返回值说明",
+  "api.btn": "Pulsar扩展接口",
+  "api.desc": [
+    {
+      "function": "矿工注册成代理矿工",
+      "explaination": "addr1为要注册的代理矿工地址；delegatefee为代理矿工手续费费率",
+      "returnValue": "交易哈希"
+    },
+    {
+      "function": "委托资金到代理矿工",
+      "explaination": "stakeHolderAddr：股东地址； minerAddr：矿工地址； stakeValue：委托金额",
+      "returnValue": "交易哈希"
+    },
+    {
+      "function": "股东撤销资金委托",
+      "explaination": "stakeHolderAddr：股东地址 minerAddr：矿工地址",
+      "returnValue": "交易哈希"
+    },
+    {
+      "function": "获取所有代理矿工信息",
+      "explaination": "-",
+      "returnValue": "所有已注册代理矿工的列表，以代理矿工的地址为索引。字段含义如下：DepositBalance：股东委托给该代理矿工的资金总和。FeeRatio：代理矿工收取的费率，单位为百万分之一。"
+    },
+    {
+      "function": "获取代理矿工上所有股东的信息",
+      "explaination": "addr为代理矿工的地址",
+      "returnValue": "委托给该代理矿工的所有股东列表，以股东的地址为索引。字段含义如下：depositBalance：该股东委托给该代理矿工的资金。depositBlockNumber：该委托交易被打包的区块高度。"
+    },
+    {
+      "function": "获取指定区块高度上Pow的总产出",
+      "explaination": "blockNumber为指定区块高度（可选），若不指定，则默认为当前最新高度",
+      "returnValue": "指定区块高度上Pow的总产出"
+    },
+    {
+      "function": "获取指定区块的信息，与以太坊基本相同，但返回值增加了几个权重和产量相关的字段",
+      "explaination": "blockNumber为指定区块高度（可选），若不指定，则默认为当前最新高度",
+      "returnValue": "新增字段：posLastCycleSupply：上一个周期的pos总产量。posLastMatureCycleSupply：上一个成熟周期的pos总产量。posOldMatureSupply：上一个成熟周期之前的所有成熟周期的pos总产量。posProduction：该区块的pos总产量。powLastCycleSupply：上一个周期的pow总产量。powLastMatureCycleSupply：上一个成熟周期的pow总产量。powOldMatureSupply：上一个成熟周期之前的所有成熟周期的pow总产量。powProduction：该区块的pow总产量。"
+    }
+  ],
+  "about.desc.first.title": "笃信区块链思维的技术极客",
+  "about.desc.first.desc": "我们深信区块链主流思想，相信算力，崇尚人人皆可得，人人皆能得的区块链思维。我们深入研究区块链底层技术多年，始终在寻找更公平，更持久的社区治理方式，并为之努力。我们不想有惊世创举，希望站在巨人的肩上，做些改变。我们不想活在现实世界中，只想活在链上，哈希是生命，区块是动力，钱包是财富。",
+  "about.desc.second.title": "独立自主的发展路线",
+  "about.desc.second.desc": "我们希望与任何人合作，我们也希望与任何人都不合作。开始之前我们就决定了， 全部都要自力更生，全部都要自己创造。我们深知任何一种依赖都是阻碍发展的因素，我们不希望您能雪中送炭，我们更希望您能锦上添花。我们希望从一颗脉冲星开始，建立起庞大的脉冲星网络。",
+  "about.desc.third.title": "币是区块链的灵魂，它应该存在",
+  "about.desc.third.desc": "PULSAR的代币是PUL，开始我们就要坦诚布公，拒绝套路，拒绝无聊的吹嘘。只要你是区块链世界的一员，你可以轻松获取PUL，PUL离开PULSAR一文不值，可能收藏是最主要的作用。拒绝任何所谓的私募，融资，也不对任何相关的事件负责。PUL就是PULSAR链的GAS，它的价值就是燃烧自己，照亮别人。首创的POS+POW，让你只要劳动就能获得，只要付出就有收获。",
+  "about.desc.fourth.title": "一路走下去",
+  "about.desc.fourth.desc": "我们没有别的路可以走，只有这一条路。坚定的走下去，我们无法预测区块链的发展，无法改变任何人对区块链的看法。教育别人的事情，总有人会去做的。我们没有教育别人的能力，只有管好自己的能力。PULSAR生态，是一条足够宽广的路，我们会披荆斩棘，一路前行。",
+  "downloadText": {
+    "android": "请使用手机相机的扫码工具，勿用微信或支付宝扫码",
+    "ios": "请使用手机相机的扫码工具，勿用微信或支付宝扫码；若下载后无法打开钱包，可卸载后重新前往区块浏览器官网下载"
+  },
+  "downloadTextArray": [
+    "使用手机相机的扫码工具扫描上侧二维码，点击“开始测试”下载安装"
+  ],
+  "table.ranking.title": "燃料量排行",
+  "ranking": "燃料量前",
+  "output": "产出",
+  "billion": "亿"
+}
